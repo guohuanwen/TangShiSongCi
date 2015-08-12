@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/editText1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="标题："
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/chuangzuo4ex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/chuangzuo4bn"
+            android:layout_toRightOf="@+id/textView1"
+            android:inputType="text" />
+
+        <requestFocus />
+
+        <ImageButton
+            android:id="@+id/chuangzuo4bn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="#eefcfcfb"
+            android:src="@drawable/baocun" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/chuangzuo4ex2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top" />
+
+</LinearLayout>

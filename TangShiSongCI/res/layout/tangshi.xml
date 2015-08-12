@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:focusableInTouchMode="false" >
+<!-- <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"></LinearLayout> -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="诗名搜索"
+        android:inputType="textVisiblePassword"
+        android:focusable="true"
+        android:focusableInTouchMode="true" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

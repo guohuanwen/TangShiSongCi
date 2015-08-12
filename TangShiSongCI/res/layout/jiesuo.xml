@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <EditText
+        android:id="@+id/jiesuoet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="已解锁诗词搜索"
+        android:inputType="textVisiblePassword" >
+
+        <requestFocus android:layout_width="wrap_content" />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/jiesuoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_weight="0.95"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp" >
+
+
+        <ImageButton
+            android:id="@+id/jiesuoib1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fcfafa"
+            android:src="@drawable/jiesuo1" />
+    </RelativeLayout>
+
+</LinearLayout>
